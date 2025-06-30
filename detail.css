@@ -1,0 +1,181 @@
+#cast{
+    display: flex;
+    justify-content: space-between;
+}
+#cast img{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    height: 7vh;
+    background: linear-gradient(to bottom right, #ffffff3e, #ffffff55, #fff6c757);
+    justify-content: space-between ;
+    align-items: center;
+    /* font-family: "Bitcount Grid Double", system-ui; */
+    font-size: 1.3vw;
+}
+#info{
+    display: flex;
+    height: 7vh;
+    /* background: linear-gradient(to bottom right, #ffffff3e, #ffffff55, #fff6c757); */
+    justify-content: space-between ;
+    align-items: center;
+    /* font-family: "Bitcount Grid Double", system-ui; */
+    font-size: 1.3vw;
+}
+#logo{
+    width: 9%;
+    padding-left:0.5vw;
+}
+.window{
+    width: 1.5vw;
+}
+body{
+    /* font-size: 5px; */
+    background: linear-gradient(to bottom , #303841, #3A4750,#495E57, #ffe46e);
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+
+button{
+    width: 7vw;
+    height: 70%;
+    font-size: 0.8rem;
+    border: 0px;
+    margin-right: 1vw;
+    border-radius: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.2vw;
+}
+button:hover{
+    transform: translate(-2px,2px);
+}
+
+#add{
+    /* width: 7vw;
+    height: 70%; */
+    width: 10vw;
+    height: 10%;
+    font-size: 0.8rem;
+    border: 0px;
+    /* margin-right: 1vw; */
+    border-radius: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1vw;
+    margin-top: 3vw;
+}
+#add:hover{
+    transform: translate(-2px,2px);
+}
+#test, #test2 , #test3{
+    /* width: 100vw; */
+    height: 50vh;
+    display: flex;
+    /* border: 1px solid black; */
+    /* margin: 10px; */
+    justify-content: space-around;
+}
+#test img, #test2 img ,#test3 img{
+    height: 40vh;
+    width: auto;
+    border-radius: 10px;
+}
+#search{
+    width:15vw;
+    display: flex;
+    justify-content: flex-end;
+    height: 4vh;
+    /* margin: auto; */
+    align-items: center;
+    border-radius: 50px;
+    padding-right: 0.5vw;
+    background-color: grey;
+}
+#search:hover{
+    border:1px solid black;
+}
+ #search-logo{
+    width: 9%;
+ }
+#home, #livetv ,#demand, #discover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:7vw;
+    height: 5vh;
+     font-family: "Bitcount Grid Double", system-ui;
+}
+span{
+    font-size: 1vw;
+    padding-left: 0.4vw;
+}
+#home{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #4e4e4e;
+}
+#livetv:hover, #demand:hover, #discover:hover{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #4e4e4e;
+}
+
+#movie-detail{
+    width: 100vw;
+    height: 100vh;
+    /* background: linear-gradient(#1c1c1c,#978d00); */
+}
+#poster{
+    width: 15vw;
+    margin: 1.5vw;
+    border-radius: 10px;
+}
+#matterall{
+    display: flex;
+    height: 50%;
+}
+#matter{
+    display: flex;
+    flex-direction: column;
+}
+#title{
+    margin-top :1.5vw ;
+    font-size: 3vw;
+}
+#rating, #aud, #overview{
+    margin-top: 1vw;
+}
+#topcast{
+    margin-top: 200px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    color: black;
+}
+li{
+    width: 15%;
+}
+.name{
+    display: block;
+}
+#top-cast{
+    margin: 1.5vw;
+}
+#cast{
+    margin: 1.5vw;
+}
+.pics:hover{
+    transform: scale(1.1);
+}

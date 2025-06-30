@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    height: 7vh;
+    background: linear-gradient(to bottom right, #ffffff3e, #ffffff55, #fff6c757);
+    justify-content: space-between ;
+    align-items: center;
+    /* font-family: "Bitcount Grid Double", system-ui; */
+    font-size: 1.3vw;
+}
+#info{
+    display: flex;
+    height: 7vh;
+    /* background: linear-gradient(to bottom right, #ffffff3e, #ffffff55, #fff6c757); */
+    justify-content: space-between ;
+    align-items: center;
+    /* font-family: "Bitcount Grid Double", system-ui; */
+    font-size: 1.3vw;
+}
+#logo{
+    width: 9%;
+    padding-left:0.5vw;
+}
+.window{
+    width: 1.5vw;
+}
+body{
+    /* font-size: 5px; */
+    background: linear-gradient(to bottom right , #303841, #3A4750,#495E57, #F6C90E);
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+
+button{
+    width: 7vw;
+    height: 70%;
+    font-size: 0.8rem;
+    border: 0px;
+    margin-right: 1vw;
+    border-radius: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.2vw;
+}
+button:hover{
+    transform: translate(-2px,2px);
+}
+#test, #test2 , #test3{
+    /* width: 100vw; */
+    height: 60vh;
+    display: flex;
+    /* border: 1px solid black; */
+    /* margin: 10px; */
+    flex-direction: row;
+    justify-content: space-around;
+}
+.movie-card{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+}
+#test img, #test2 img ,#test3 img{
+    height: 50vh;
+    width: auto;
+    border-radius: 10px;
+}
+#search{
+    width:15vw;
+    display: flex;
+    justify-content: flex-end;
+    height: 4vh;
+    /* margin: auto; */
+    align-items: center;
+    border-radius: 50px;
+    padding-right: 0.5vw;
+    background-color: grey;
+}
+#search:hover{
+    border:1px solid black;
+}
+/* #search img{
+    width: 5%;
+} */
+ #search-logo{
+    width: 9%;
+ }
+#home, #livetv ,#demand, #discover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:7vw;
+    height: 5vh;
+     font-family: "Bitcount Grid Double", system-ui;
+}
+span{
+    font-size: 1vw;
+    padding-left: 0.4vw;
+}
+#home{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #4e4e4e;
+}
+#livetv:hover, #demand:hover, #discover:hover{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #353535;
+}
+h1{
+    margin: 1vh;
+}
+#first-heading{
+    margin-top: 3vh;
+}
+.movie{
+  transition: transform 0.3s ease-in-out;
+}
+.window{
+  transition: transform 0.3s ease-in-out;
+}
+.window:hover{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #353535;
+}
+.movie-img:hover{
+    transform:translateY(-10px);
+
+}
